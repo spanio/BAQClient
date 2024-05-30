@@ -1,3 +1,6 @@
+import serial
+
+
 class BAQClient:
     def __init__(self, port):
         self.serial_port = port
