@@ -1,5 +1,5 @@
 import serial
-
+import time
 
 class BAQClient:
     def __init__(self, port):
